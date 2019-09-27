@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite.Tests\\eventbrite.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite.Tests\\eventbrite.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite.Tests\\eventbrite.Tests.csproj",
+        "projectName": "eventbrite.Tests",
+        "projectPath": "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite.Tests\\eventbrite.Tests.csproj",
+        "packagesPath": "C:\\Users\\rkandati\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkandati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://dotnet.myget.org/F/blazor-dev/api/v3/index.json": {},
+          "https://js2test.pkgs.visualstudio.com/_packaging/tke.Microservices.Platform/nuget/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite\\eventbrite.csproj": {
+                "projectPath": "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite\\eventbrite.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite\\eventbrite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite\\eventbrite.csproj",
+        "projectName": "eventbrite",
+        "projectPath": "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite\\eventbrite.csproj",
+        "packagesPath": "C:\\Users\\rkandati\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rkandati\\Desktop\\2019 Give Camp\\api\\eventbrite\\eventbrite\\eventbrite\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rkandati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://dotnet.myget.org/F/blazor-dev/api/v3/index.json": {},
+          "https://js2test.pkgs.visualstudio.com/_packaging/tke.Microservices.Platform/nuget/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.7.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MiniProfiler.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[4.0.180, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.7, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

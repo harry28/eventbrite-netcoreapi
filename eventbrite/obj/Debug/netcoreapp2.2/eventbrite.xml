@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>eventbrite</name>
+    </assembly>
+    <members>
+        <member name="M:eventbrite.Controllers.EventbriteController.#ctor(Microsoft.Extensions.Logging.ILogger{eventbrite.Controllers.EventbriteController},MediatR.IMediator,AutoMapper.IMapper)">
+            <summary>
+            Initialize
+            </summary>
+            <param name="logger"></param>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:eventbrite.Controllers.EventbriteController.GetEvents">
+             <summary>
+             Get Events.
+             </summary>
+            <returns>Events Information</returns>
+            <response code = "200"> Returns events information</response>
+            <response code = "400"> If there is an error please check </response>
+        </member>
+        <member name="M:eventbrite.Controllers.EventbriteController.GetEventById(eventbrite.Queries.GetEventById.GetEventByIdQuery)">
+             <summary>
+             Get Event by Id
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /EventId
+                 {
+                    "EventId": "74445312935",        
+                 }
+            
+             </remarks>
+            <returns>Event Information</returns>
+            <response code = "200"> Returns Event information for the given Event Id</response>
+            <response code = "400"> If there is an error please check in application insights</response>
+        </member>
+        <member name="M:eventbrite.Controllers.EventbriteController.CreateEvent(eventbrite.Commands.CreateEvent.CreateEventCommand)">
+             <summary>
+             Create Events.
+             </summary>
+            <returns>Create Event Information</returns>
+            <response code = "201"> Returns event information</response>
+            <response code = "400"> If there is an error please check </response>
+        </member>
+        <member name="M:eventbrite.Services.Implementations.EventbriteService.GetEvents">
+            <summary>
+            Get Events
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:eventbrite.Services.Implementations.EventbriteService.GetEventById(System.String)">
+            <summary>
+            Get Event by Id
+            </summary>
+            <param name="eventId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eventbrite.Services.Implementations.EventbriteService.GetRestClient(System.String)">
+            <summary>
+            Get Events Client
+            </summary>
+            <param name="eventId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eventbrite.Services.Implementations.EventbriteService.GetEvents(RestSharp.RestClient)">
+            <summary>
+            Get Events
+            </summary>
+            <param name="client"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eventbrite.Services.Implementations.EventbriteService.CreateRestClient(System.String)">
+            <summary>
+            Create Event Client
+            </summary>
+            <param name="organizationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eventbrite.Services.Implementations.EventbriteService.CreateEvent(RestSharp.RestClient,eventbrite.Commands.CreateEvent.CreateEventCommand)">
+            <summary>
+            Create Events
+            </summary>
+            <param name="client"></param>
+            <param name="newEvent"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

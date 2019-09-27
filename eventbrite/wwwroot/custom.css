@@ -1,0 +1,42 @@
+﻿.swagger-ui .topbar {
+    background-color: #00B4F5;
+    border-bottom: 3px solid white;
+    height: 100px;
+}
+
+.topbar-wrapper img {
+    /*content: url('images/tkewhitelogo.png');*/
+    color: white;
+    width: 120px;
+    height: 120px;
+    margin-top: -20px;
+}
+
+topbar-wrapper img[alt="Swagger UI"], .topbar-wrapper span {
+    visibility: hidden;
+}
+
+.topbar-wrapper .link span:before {
+    content: 'eventbrite';
+    visibility: visible;
+    display: block;
+    position: absolute;
+    color: white;
+    padding: 5px;
+    top: 60px; 
+}
+
+.topbar-wrapper .select-label span:after {
+    content: 'Select a spec';
+    visibility: visible;
+    display: block;
+    position: absolute;
+    color: white;
+    padding: 5px;
+    top: 45px;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+
+

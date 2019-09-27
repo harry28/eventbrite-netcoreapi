@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventbrite", "eventbrite\eventbrite.csproj", "{CCAA5124-7D7A-466D-88C5-519A977B4677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventbrite.Tests", "eventbrite.Tests\eventbrite.Tests.csproj", "{893D60ED-AEC0-4D1C-8B90-AF227F351C30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCAA5124-7D7A-466D-88C5-519A977B4677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAA5124-7D7A-466D-88C5-519A977B4677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAA5124-7D7A-466D-88C5-519A977B4677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAA5124-7D7A-466D-88C5-519A977B4677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893D60ED-AEC0-4D1C-8B90-AF227F351C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893D60ED-AEC0-4D1C-8B90-AF227F351C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893D60ED-AEC0-4D1C-8B90-AF227F351C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893D60ED-AEC0-4D1C-8B90-AF227F351C30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40CA49D7-3CE0-49C4-BB85-79908E7900ED}
+	EndGlobalSection
+EndGlobal

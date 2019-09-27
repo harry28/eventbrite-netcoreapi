@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <!--AspNetCore-->
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+
+    <!--CQRS-->
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+
+    <!--Profiler-->
+    <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.0.180" />
+
+    <!--Fluet Validation-->
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.4.0" />
+
+    <!--Swagger-->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+
+    <!--Seri Logging-->
+    <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.7.1" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+
+    <!--RestSharp-->
+    <PackageReference Include="RestSharp" Version="106.6.7" />
+
+    <!--AutoMapper-->
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="SwaggerIndex.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\SwaggerIndex.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EventbriteApi">
+      <HintPath>..\..\..\dll\EventbriteApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
